@@ -1,0 +1,46 @@
+import java.util.*;
+public class Main
+{
+public static void main (String[] args) 
+{
+   
+   Scanner qw= new Scanner(System.in);    
+   System.out.print("Enter the tamil mark= ");  
+   int a= qw.nextInt();
+   Scanner er= new Scanner(System.in);    
+   System.out.print("Enter the english mark= ");  
+   int b= er.nextInt(); 
+   Scanner ty= new Scanner(System.in);    
+   System.out.print("Enter the maths mark= ");  
+   int c= ty.nextInt(); 
+   Scanner ui= new Scanner(System.in);    
+   System.out.print("Enter the science mark= ");  
+   int d= ui.nextInt();
+   int e=a+b+c+d;
+   int sum=e/4;
+   System.out.println("total marks obtain by student="+sum);
+   if(sum>=65)
+   {
+       if(sum>=75)
+       {
+           System.out.println("disting");
+       }
+       else
+       {
+           
+           System.out.println("first class");
+       }
+   }
+   else
+   {
+       if(sum>=50&&sum<=64)
+       {
+           System.out.println("second class");
+       }
+       else
+       {
+         System.out.println("third class");  
+       }
+   }
+}
+}
