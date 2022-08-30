@@ -1,0 +1,38 @@
+import java.util.*;
+public class Main 
+{
+public static void main(String[]args)
+{
+int d,w;    
+Scanner sc= new Scanner(System.in);     
+System.out.print("enter the salary of the employee= ");  
+int a1= sc.nextInt();
+{
+    if(a1<10000)
+{
+    d=2;
+}
+else
+{
+    d=0;
+}
+}
+System.out.println("grade a=1");
+System.out.println("grade b=2");
+Scanner sc1= new Scanner(System.in);     
+System.out.print("enter the employee grade= ");  
+int s = sc1.nextInt();
+{
+    if(s<=1)
+    {
+        w=5;
+    }
+    else
+    {
+        w=10;
+    }
+}
+
+System.out.println("salary for the employee="+(a1+a1*(d+w)/100);
+}
+}
